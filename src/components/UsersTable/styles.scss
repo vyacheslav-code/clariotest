@@ -1,0 +1,30 @@
+.users-table {
+    position: relative;
+    overflow: auto;
+
+    &--main {
+        width: 100%;
+        border-collapse: collapse;
+
+        th {
+            text-align: left;
+            background: #F7F7FA;
+            font-weight: normal;
+        }
+
+        th,
+        td {
+            border: 1px solid #D1CFD7;
+            padding: 8px;
+            font-size: 15px;
+            line-height: 20px;
+        }
+
+    }
+
+    &--first-col { 
+        position: sticky;
+        left: 0;
+        width: 164px;
+    }
+}

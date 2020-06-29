@@ -1,0 +1,49 @@
+.tip {
+    position: absolute;
+    left: 0;
+    bottom: -100px;
+    width: 1016px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 17px 32px;
+    background-color: #fff;
+
+    &--info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &__icon {
+            width: 45px;
+            height: 45px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 100px;
+            background-color: #E3F0FF;
+            margin-right: 16px;
+        }
+
+        &__title {
+            display: block;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 24px;
+        }
+
+        &__subtitle {
+            font-size: 13px;
+            line-height: 17px;
+            color: #77767E;
+        }
+    }
+
+    &--button {
+        cursor: pointer;
+        padding: 10px 20px;
+        color: #007AFF;
+        background: #E3F0FF;
+        border-radius: 5px;
+    }
+}

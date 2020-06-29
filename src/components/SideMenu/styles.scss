@@ -1,0 +1,35 @@
+.side-menu {
+    position: fixed;
+    height: 100%;
+    width: 80px;
+    margin: 0px;
+
+    background: #373B53;
+
+    &--logo-wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 22px 0;
+        background: #007AFF;
+    }
+
+    &--wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    &--item {
+        padding: 18px;
+        margin: 16px 12px;
+
+        &__selected {
+            background: #fff;
+            border-radius: 10px;
+        }
+    }  
+}

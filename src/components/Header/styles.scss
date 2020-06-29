@@ -1,0 +1,23 @@
+header {
+    position: fixed;
+    width: calc(100% - 80px);
+    height: 80px;
+
+    background: #FFF;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    .credentials {
+        &--wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 32px;
+        }
+
+         &--name {
+             margin-left: 12px;
+         }
+    } 
+}
